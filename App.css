@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body{
+  background-color: beige;
+  margin:0;
+  padding:0;
+}
+
+
+.a{
+  text-decoration: none;
+  color: #000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-a{
+  background: salmon;
+  color: #fff;
+  padding: 0.5em;
+  display:list-item;
+
+  
+  
+  
+}
+.nav-a:hover{  /*UNA VES TENGA EL CURSOS ENCIMA, REALIZA LA ACCION ASIGNADA*/
+  background-color: brown;
+}
+.a-icon{
+  text-decoration: none;
+  color: #000;
+}
+
+.header-ul{
+  background: rgb(237, 235, 240);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  
+  
+  
+  position: static;
+}
+@media(max-width: 600px){       /*DESPUES DEL TAMAÑO ASIGNADO(MAX-WIDTH) REALIZA LA ACCION*/
+  .header-ul{
+       background: black;
+       flex-direction: column;
+  }
+  .nav-a{
+    margin: 10px 15px;
+  }
+}
+.a-icon{
+  font-size: 2em;
+}
+.melogo{
+  display:flex;
+   margin-top: 100px;
+   width: 600px;
+   height: 300px;
+   border-style: dotted;
+   
+}
+.melogo img{
+  width: 200px;
+  height: 290px;
+}
+.img:hover{
+   filter: saturate(180%);
+}
+.noticia{
+   
+   width: 600px;
+   height: 350px;
+   border-style: solid;
+   
+   
+   
+
+}
+.div-nav{
+  
+  border-style: solid;
+  margin-left: 50px;
+}
+.div-logo{
+  width: 40px;
+  height: 50px;
+  border-style: solid;
+  margin-top: px;
+}
+.div-cuerpo{
+  /*display: flex;
+  width: 95%;
+  border-style: double;
+  margin-top: 50px;*/
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 95%;
+  border-style: groove;
+}
+*{
+  box-sizing:border-box;
+}
+
